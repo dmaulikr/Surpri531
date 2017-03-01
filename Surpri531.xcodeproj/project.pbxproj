@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F14047AD1E67571000A9F00E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14047AC1E67571000A9F00E /* AppDelegate.swift */; };
-		F14047AF1E67571000A9F00E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14047AE1E67571000A9F00E /* ViewController.swift */; };
+		F14047AF1E67571000A9F00E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14047AE1E67571000A9F00E /* HomeViewController.swift */; };
 		F14047B21E67571000A9F00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14047B01E67571000A9F00E /* Main.storyboard */; };
 		F14047B51E67571000A9F00E /* Surpri531.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F14047B31E67571000A9F00E /* Surpri531.xcdatamodeld */; };
 		F14047B71E67571000A9F00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14047B61E67571000A9F00E /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F14047A91E67571000A9F00E /* Surpri531.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surpri531.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14047AC1E67571000A9F00E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F14047AE1E67571000A9F00E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F14047AE1E67571000A9F00E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F14047B11E67571000A9F00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F14047B41E67571000A9F00E /* Surpri531.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Surpri531.xcdatamodel; sourceTree = "<group>"; };
 		F14047B61E67571000A9F00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,13 +99,12 @@
 		F14047AB1E67571000A9F00E /* Surpri531 */ = {
 			isa = PBXGroup;
 			children = (
+				F14047E01E675C6200A9F00E /* Storyboards */,
+				F14047DF1E675C3F00A9F00E /* Core data */,
+				F14047DE1E675C2600A9F00E /* View controllers */,
+				F14047DD1E675C0900A9F00E /* Assets */,
 				F14047AC1E67571000A9F00E /* AppDelegate.swift */,
-				F14047AE1E67571000A9F00E /* ViewController.swift */,
-				F14047B01E67571000A9F00E /* Main.storyboard */,
-				F14047B61E67571000A9F00E /* Assets.xcassets */,
-				F14047B81E67571000A9F00E /* LaunchScreen.storyboard */,
 				F14047BB1E67571000A9F00E /* Info.plist */,
-				F14047B31E67571000A9F00E /* Surpri531.xcdatamodeld */,
 			);
 			path = Surpri531;
 			sourceTree = "<group>";
@@ -126,6 +125,39 @@
 				F14047D11E67571000A9F00E /* Info.plist */,
 			);
 			path = Surpri531UITests;
+			sourceTree = "<group>";
+		};
+		F14047DD1E675C0900A9F00E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F14047B61E67571000A9F00E /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F14047DE1E675C2600A9F00E /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F14047AE1E67571000A9F00E /* HomeViewController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		F14047DF1E675C3F00A9F00E /* Core data */ = {
+			isa = PBXGroup;
+			children = (
+				F14047B31E67571000A9F00E /* Surpri531.xcdatamodeld */,
+			);
+			name = "Core data";
+			sourceTree = "<group>";
+		};
+		F14047E01E675C6200A9F00E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F14047B01E67571000A9F00E /* Main.storyboard */,
+				F14047B81E67571000A9F00E /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F14047AF1E67571000A9F00E /* ViewController.swift in Sources */,
+				F14047AF1E67571000A9F00E /* HomeViewController.swift in Sources */,
 				F14047AD1E67571000A9F00E /* AppDelegate.swift in Sources */,
 				F14047B51E67571000A9F00E /* Surpri531.xcdatamodeld in Sources */,
 			);
